@@ -179,39 +179,6 @@
       ]
     },
     {
-      "id": 50,
-      "type": "UpscaleModelLoader",
-      "pos": [
-        -620,
-        1420
-      ],
-      "size": [
-        400,
-        60
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "UPSCALE_MODEL",
-          "type": "UPSCALE_MODEL",
-          "links": [
-            65
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.27",
-        "Node name for S&R": "UpscaleModelLoader"
-      },
-      "widgets_values": [
-        "RealESRGAN_x2.pth"
-      ]
-    },
-    {
       "id": 102,
       "type": "String Literal (Image Saver)",
       "pos": [
@@ -223,7 +190,7 @@
         90
       ],
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -258,7 +225,7 @@
         60
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -293,7 +260,7 @@
         60
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -328,7 +295,7 @@
         60
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -363,7 +330,7 @@
         60
       ],
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -556,7 +523,7 @@
         128
       ],
       "flags": {},
-      "order": 22,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -621,7 +588,7 @@
         128
       ],
       "flags": {},
-      "order": 24,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -686,7 +653,7 @@
         106
       ],
       "flags": {},
-      "order": 39,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -1564,7 +1531,7 @@
         78
       ],
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1603,7 +1570,7 @@
         80
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1680,7 +1647,7 @@
         26
       ],
       "flags": {},
-      "order": 21,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -1715,7 +1682,7 @@
         26
       ],
       "flags": {},
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -1753,7 +1720,7 @@
         26
       ],
       "flags": {},
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1827,7 +1794,7 @@
         26
       ],
       "flags": {},
-      "order": 46,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1863,7 +1830,7 @@
         26
       ],
       "flags": {},
-      "order": 44,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1973,7 +1940,7 @@
         26
       ],
       "flags": {},
-      "order": 23,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -2011,7 +1978,7 @@
         26
       ],
       "flags": {},
-      "order": 25,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -2049,7 +2016,7 @@
         26
       ],
       "flags": {},
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -2127,7 +2094,7 @@
         26
       ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -2166,7 +2133,7 @@
         26
       ],
       "flags": {},
-      "order": 26,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -2241,7 +2208,7 @@
         26
       ],
       "flags": {},
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -2280,7 +2247,7 @@
         26
       ],
       "flags": {},
-      "order": 40,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -2539,7 +2506,7 @@
         26
       ],
       "flags": {},
-      "order": 43,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2617,7 +2584,7 @@
         26
       ],
       "flags": {},
-      "order": 42,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -2656,7 +2623,7 @@
         26
       ],
       "flags": {},
-      "order": 41,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -2732,7 +2699,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -2785,7 +2752,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -2836,7 +2803,7 @@
         58
       ],
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2870,7 +2837,7 @@
         90
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3015,7 +2982,7 @@
         170
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3053,7 +3020,7 @@
         170
       ],
       "flags": {},
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3091,7 +3058,7 @@
         26
       ],
       "flags": {},
-      "order": 47,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -3129,7 +3096,7 @@
         26
       ],
       "flags": {},
-      "order": 45,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -3167,7 +3134,7 @@
         26
       ],
       "flags": {},
-      "order": 37,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -3189,6 +3156,39 @@
         "showOutputText": false,
         "horizontal": false
       }
+    },
+    {
+      "id": 50,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        -620,
+        1420
+      ],
+      "size": [
+        400,
+        60
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            65
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "UpscaleModelLoader"
+      },
+      "widgets_values": [
+        "RealESRGAN_x2plus.pth"
+      ]
     }
   ],
   "links": [
@@ -4060,10 +4060,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.3249813486370165,
+      "scale": 0.3932274318507911,
       "offset": [
-        701.9338520762944,
-        -619.9928248139245
+        901.4943793525259,
+        -937.3510300272458
       ]
     }
   },
