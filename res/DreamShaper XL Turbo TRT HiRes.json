@@ -35,7 +35,7 @@
         "Node name for S&R": "Seed Generator (Image Saver)"
       },
       "widgets_values": [
-        373234349205677,
+        83743975426775,
         "randomize"
       ]
     },
@@ -179,6 +179,77 @@
       ]
     },
     {
+      "id": 50,
+      "type": "UpscaleModelLoader",
+      "pos": [
+        -620,
+        1420
+      ],
+      "size": [
+        400,
+        60
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            65
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "UpscaleModelLoader"
+      },
+      "widgets_values": [
+        "RealESRGAN_x2.pth"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "String Literal (Image Saver)",
+      "pos": [
+        -620,
+        1840
+      ],
+      "size": [
+        400,
+        170
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            48,
+            92
+          ]
+        }
+      ],
+      "title": "Base Negative prompt",
+      "properties": {
+        "cnr_id": "comfyui-image-saver",
+        "ver": "1.4.0",
+        "Node name for S&R": "String Literal (Image Saver)"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
       "id": 102,
       "type": "String Literal (Image Saver)",
       "pos": [
@@ -190,7 +261,7 @@
         90
       ],
       "flags": {},
-      "order": 5,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -225,7 +296,7 @@
         60
       ],
       "flags": {},
-      "order": 6,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -260,7 +331,7 @@
         60
       ],
       "flags": {},
-      "order": 7,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -295,7 +366,7 @@
         60
       ],
       "flags": {},
-      "order": 8,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -330,7 +401,7 @@
         60
       ],
       "flags": {},
-      "order": 9,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -380,9 +451,7 @@
         "ver": "0.3.27",
         "Node name for S&R": "PreviewImage"
       },
-      "widgets_values": [
-        ""
-      ]
+      "widgets_values": []
     },
     {
       "id": 48,
@@ -411,9 +480,7 @@
         "ver": "0.3.27",
         "Node name for S&R": "PreviewImage"
       },
-      "widgets_values": [
-        ""
-      ]
+      "widgets_values": []
     },
     {
       "id": 49,
@@ -523,7 +590,7 @@
         128
       ],
       "flags": {},
-      "order": 21,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -588,7 +655,7 @@
         128
       ],
       "flags": {},
-      "order": 23,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -653,7 +720,7 @@
         106
       ],
       "flags": {},
-      "order": 38,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -787,14 +854,13 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        938413631234647,
+        497676036004402,
         "randomize",
         20,
         8,
         "euler",
         "simple",
-        0.5000000000000001,
-        ""
+        0.5000000000000001
       ]
     },
     {
@@ -935,14 +1001,13 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        784188175184443,
+        352678044538158,
         "randomize",
         30,
         8,
         "euler_ancestral",
         "normal",
-        1,
-        ""
+        1
       ]
     },
     {
@@ -1176,8 +1241,7 @@
         0,
         "%Y-%m-%d-%H%M%S",
         false,
-        true,
-        ""
+        true
       ]
     },
     {
@@ -1192,7 +1256,7 @@
         26
       ],
       "flags": {},
-      "order": 55,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -1379,7 +1443,7 @@
         26
       ],
       "flags": {},
-      "order": 57,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -1531,7 +1595,7 @@
         78
       ],
       "flags": {},
-      "order": 10,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1570,7 +1634,7 @@
         80
       ],
       "flags": {},
-      "order": 11,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1609,7 +1673,7 @@
         26
       ],
       "flags": {},
-      "order": 54,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -1647,7 +1711,7 @@
         26
       ],
       "flags": {},
-      "order": 32,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -1682,7 +1746,7 @@
         26
       ],
       "flags": {},
-      "order": 31,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -1720,7 +1784,7 @@
         26
       ],
       "flags": {},
-      "order": 29,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -1794,7 +1858,7 @@
         26
       ],
       "flags": {},
-      "order": 45,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1830,7 +1894,7 @@
         26
       ],
       "flags": {},
-      "order": 43,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -1940,7 +2004,7 @@
         26
       ],
       "flags": {},
-      "order": 22,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -1978,7 +2042,7 @@
         26
       ],
       "flags": {},
-      "order": 24,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -2016,7 +2080,7 @@
         26
       ],
       "flags": {},
-      "order": 27,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -2094,7 +2158,7 @@
         26
       ],
       "flags": {},
-      "order": 26,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -2133,7 +2197,7 @@
         26
       ],
       "flags": {},
-      "order": 25,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -2208,7 +2272,7 @@
         26
       ],
       "flags": {},
-      "order": 37,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -2247,7 +2311,7 @@
         26
       ],
       "flags": {},
-      "order": 39,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2321,7 +2385,7 @@
         26
       ],
       "flags": {},
-      "order": 56,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -2430,7 +2494,7 @@
         26
       ],
       "flags": {},
-      "order": 51,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -2468,7 +2532,7 @@
         26
       ],
       "flags": {},
-      "order": 52,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -2506,7 +2570,7 @@
         26
       ],
       "flags": {},
-      "order": 42,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -2584,7 +2648,7 @@
         26
       ],
       "flags": {},
-      "order": 41,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -2623,7 +2687,7 @@
         26
       ],
       "flags": {},
-      "order": 40,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -2686,6 +2750,117 @@
       }
     },
     {
+      "id": 52,
+      "type": "Reroute",
+      "pos": [
+        2460,
+        1550
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 64
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "UPSCALE_MODEL",
+          "links": [
+            66
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 63,
+      "type": "Reroute",
+      "pos": [
+        2460,
+        1580
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 89
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            93
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 65,
+      "type": "Reroute",
+      "pos": [
+        2460,
+        1610
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 90
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            94
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
       "id": 18,
       "type": "CLIPTextEncode",
       "pos": [
@@ -2699,7 +2874,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 28,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -2752,7 +2927,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 30,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -2803,7 +2978,7 @@
         58
       ],
       "flags": {},
-      "order": 12,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2837,7 +3012,7 @@
         90
       ],
       "flags": {},
-      "order": 13,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2860,7 +3035,7 @@
         26
       ],
       "flags": {},
-      "order": 53,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -2887,52 +3062,48 @@
       }
     },
     {
-      "id": 119,
-      "type": "SchedulerComfyToString (Image Saver)",
+      "id": 35,
+      "type": "String Literal (Image Saver)",
       "pos": [
-        2790,
-        2130
+        -620,
+        1610
       ],
       "size": [
-        302.3999938964844,
-        58
+        400,
+        170
       ],
       "flags": {},
-      "order": 63,
+      "order": 16,
       "mode": 0,
-      "inputs": [
-        {
-          "name": "scheduler",
-          "type": "COMBO",
-          "widget": {
-            "name": "scheduler"
-          },
-          "link": 170
-        }
-      ],
+      "inputs": [],
       "outputs": [
         {
-          "name": "scheduler_name",
+          "name": "STRING",
           "type": "STRING",
+          "slot_index": 0,
           "links": [
-            171
+            47,
+            91
           ]
         }
       ],
+      "title": "Base Positive prompt",
       "properties": {
         "cnr_id": "comfyui-image-saver",
         "ver": "1.4.0",
-        "Node name for S&R": "SchedulerComfyToString (Image Saver)"
+        "Node name for S&R": "String Literal (Image Saver)"
       },
       "widgets_values": [
-        "normal"
-      ]
+        "anthropomorphic robot, red eyes, preparing for combat, highly detailed (heavy armor), martial art position, space station, space view, space ships, sharp"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
     },
     {
       "id": 115,
       "type": "SamplerToString (Image Saver)",
       "pos": [
-        2740,
+        2720,
         2010
       ],
       "size": [
@@ -2971,223 +3142,45 @@
       ]
     },
     {
-      "id": 31,
-      "type": "String Literal (Image Saver)",
+      "id": 119,
+      "type": "SchedulerComfyToString (Image Saver)",
       "pos": [
-        -620,
-        1840
+        2820,
+        2120
       ],
       "size": [
-        400,
-        170
+        302.3999938964844,
+        58
       ],
       "flags": {},
-      "order": 14,
+      "order": 63,
       "mode": 0,
-      "inputs": [],
+      "inputs": [
+        {
+          "name": "scheduler",
+          "type": "COMBO",
+          "widget": {
+            "name": "scheduler"
+          },
+          "link": 170
+        }
+      ],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "scheduler_name",
           "type": "STRING",
-          "slot_index": 0,
           "links": [
-            48,
-            92
+            171
           ]
         }
       ],
-      "title": "Base Negative prompt",
       "properties": {
         "cnr_id": "comfyui-image-saver",
         "ver": "1.4.0",
-        "Node name for S&R": "String Literal (Image Saver)"
+        "Node name for S&R": "SchedulerComfyToString (Image Saver)"
       },
       "widgets_values": [
-        "blurry, low details"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
-      "id": 35,
-      "type": "String Literal (Image Saver)",
-      "pos": [
-        -620,
-        1610
-      ],
-      "size": [
-        400,
-        170
-      ],
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "slot_index": 0,
-          "links": [
-            47,
-            91
-          ]
-        }
-      ],
-      "title": "Base Positive prompt",
-      "properties": {
-        "cnr_id": "comfyui-image-saver",
-        "ver": "1.4.0",
-        "Node name for S&R": "String Literal (Image Saver)"
-      },
-      "widgets_values": [
-        "anthropomorphic robot, red eyes, preparing for combat, highly detailed (heavy armor), martial art position, space station, space view, space ships, sharp"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
-      "id": 63,
-      "type": "Reroute",
-      "pos": [
-        2460,
-        1570
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 46,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "widget": {
-            "name": "value"
-          },
-          "link": 89
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": [
-            93
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 65,
-      "type": "Reroute",
-      "pos": [
-        2460,
-        1600
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 44,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "widget": {
-            "name": "value"
-          },
-          "link": 90
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": [
-            94
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 52,
-      "type": "Reroute",
-      "pos": [
-        2460,
-        1540
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 47,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 64
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "UPSCALE_MODEL",
-          "links": [
-            66
-          ]
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 50,
-      "type": "UpscaleModelLoader",
-      "pos": [
-        -620,
-        1420
-      ],
-      "size": [
-        400,
-        60
-      ],
-      "flags": {},
-      "order": 16,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "UPSCALE_MODEL",
-          "type": "UPSCALE_MODEL",
-          "links": [
-            65
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.27",
-        "Node name for S&R": "UpscaleModelLoader"
-      },
-      "widgets_values": [
-        "RealESRGAN_x2plus.pth"
+        "normal"
       ]
     }
   ],
@@ -4060,10 +4053,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.3932274318507911,
+      "scale": 1.019930686467486,
       "offset": [
-        901.4943793525259,
-        -937.3510300272458
+        1204.7461788064588,
+        -1150.122184357294
       ]
     }
   },
