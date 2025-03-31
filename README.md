@@ -46,7 +46,7 @@ Once the CLIP and VAE models have been extracted and the TensorRT engine put in 
 
 If you are interested in a complete workflow with HiRes fix + 4k upscale based on this example, you can find it [here](res/DreamShaper%20XL%20Turbo%20TRT%20HiRes.json). This workflow will additionnaly need:
 
-- The `RealESRGAN x2plus` [model](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth)
+- The `RealESRGAN x2plus` [upscale model](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth)
 - [ComfyUI Essentials](https://github.com/cubiq/ComfyUI_essentials)
 
 ![full workflow screenshot](res/fullworkflow.png)
