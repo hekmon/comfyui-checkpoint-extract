@@ -50,3 +50,11 @@ If you are interested in a complete workflow with HiRes fix + 4k upscale based o
 - [ComfyUI Essentials](https://github.com/cubiq/ComfyUI_essentials)
 
 ![full workflow screenshot](res/fullworkflow.png)
+
+## Clip models compatibility
+
+By default the clip model saver will simply take the clip model from the connection and save it as is. However, some models/architectures might need a pre processing step before being saved. For now the following models are supported:
+
+- **SDXL**: `clip-g` and `clip-l` are separated into separate files in order to be properly loaded by the dual clip loader comfyui node. The layers keys names are also cleaned from checkpoint bundle prefixes.
+
+Others models will probaly needs testing and code modification to be compatible from the simple or dual clip loader.
