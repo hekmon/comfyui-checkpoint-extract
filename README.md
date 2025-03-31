@@ -57,4 +57,4 @@ By default the clip model saver will simply take the clip model from the connect
 
 - **SDXL**: `clip-g` and `clip-l` are separated into separate files in order to be properly loaded by the dual clip loader comfyui node. The layers keys names are also cleaned from checkpoint bundle prefixes.
 
-Others models will probaly needs testing and code modification to be compatible from the simple or dual clip loader.
+Others models will probaly needs testing and code modification to be compatible with the simple or dual clip loader.
