@@ -4,9 +4,9 @@ Extract CLIP and VAE models from a loaded checkpoint in ComfyUI.
 
 ## Intended use
 
-The idea of this project is to separatly load the clip model(s) and vae model from a checkpoint once a [TensorRT engine](https://github.com/comfyanonymous/ComfyUI_TensorRT) has been built from a checkpoint. Normaly, after the engine is built, you need to load it separately. But you still need the clip model and the var model into your workflow. The easiest way to do it is to keep the `Load checkpoint` on the original model to get them. But doing so, it will also load the original model which you don't need because you will use the compiled TensortRT engine.
+The idea of this project is to be able to separately load the clip model(s) and vae model from a checkpoint once a [TensorRT engine](https://github.com/comfyanonymous/ComfyUI_TensorRT) has been built from it. Normaly, after the engine is built, you still need the clip model and the vae model and the simplest way to get them is to load the checkpoint again. But by doing so, it will also load the original model which you don't need because you will use the compiled TensortRT engine.
 
-This project allows to build the TensorRT engine while extracting the clip model(s) and vae model on the same pass: this way you can load the builded TensorRT engine along side with the clip and vae model without having to load the original checkpoint.
+This project allows to build the TensorRT engine while extracting the clip model(s) and vae model on the same pass: this way you can load the builded TensorRT engine along side with the clip and vae models without having to load the original checkpoint.
 
 ## Installation
 
