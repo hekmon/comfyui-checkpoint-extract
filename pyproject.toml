@@ -1,0 +1,14 @@
+[project]
+name = "checkpoint-extract"
+description = "Extract CLIP and VAE models from a loaded checkpoint in ComfyUI."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/hekmon/comfyui-checkpoint-extract"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-checkpoint-extract"
+Icon = ""
